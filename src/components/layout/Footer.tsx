@@ -29,7 +29,7 @@ const navLinks = [
 ];
 
 const socialLinks = [
-    { label: "GitHub",   href: process.env.NEXT_PUBLIC_GITHUB_URL ?? "#", con: GithubIcon },
+    { label: "GitHub",   href: process.env.NEXT_PUBLIC_GITHUB_URL ?? "#", icon: GithubIcon },
     { label: "LinkedIn", href: process.env.NEXT_PUBLIC_LINKEDIN_URL ?? "#", icon: LinkedinIcon },
     { label: "Email",    href: "mailto:kwenleow@gmail.com", icon: Mail },
 ];
