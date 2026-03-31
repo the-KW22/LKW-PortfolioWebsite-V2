@@ -7,6 +7,7 @@ import { PageTransitionProvider } from "@/components/layout/PageTransitionProvid
 import { cn } from "@/lib/utils";
 import Nav from "@/components/layout/Nav";
 import Footer from "@/components/layout/Footer";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const nunitoSans = Nunito_Sans({
   subsets: ["latin"],
@@ -107,6 +108,8 @@ export default function RootLayout({
           
           <Footer />
         </PageTransitionProvider>
+
+        <SpeedInsights />
       </body>
     </html>
   );
