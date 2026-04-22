@@ -177,3 +177,23 @@
   color: transparent;
   -webkit-text-stroke: 1px rgba(245, 245, 245, 0.25);
 }
+
+@utility flame-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #FE4D01 #1E1E1E;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #1E1E1E;
+    border-radius: 999px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #FE4D01;
+    border-radius: 999px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: #FF7A3D;
+  }
+}

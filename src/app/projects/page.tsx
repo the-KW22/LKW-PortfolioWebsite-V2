@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ProjectCarouselSection from "@/components/sections/projects/ProjectCarouselSection";
 import ProjectHero from "@/components/sections/projects/ProjectHero";
+import Testing from "@/components/sections/projects/Testing";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://leowkaiwen.dev";
 
@@ -32,11 +33,12 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Projects(){
-    return(
-        <>
-            <ProjectHero />
-            <ProjectCarouselSection />
-        </>
-    )
+export default function Projects() {
+  return (
+    <>
+      <ProjectHero />
+      <ProjectCarouselSection />
+      {/* <Testing /> */}
+    </>
+  )
 }
